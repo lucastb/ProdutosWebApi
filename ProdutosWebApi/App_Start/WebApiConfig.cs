@@ -12,6 +12,8 @@ namespace ProdutosWebApi
             // Web API configuration and services
 
             // Web API routes
+            // roteamento de atributos
+            // Ex.: Livros de tal autor; Filmes com tal ator; Pedidos de tal cliente;
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
